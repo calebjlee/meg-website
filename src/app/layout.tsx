@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'MEG Consulting',
   description: 'A premier consulting club at the University of Michigan',
-  keywords: ['consulting', 'business strategy', 'innovation', 'digital transformation'],
+  keywords: ['University of Michigan', 'consulting', 'business strategy', 'innovation', 'digital transformation'],
   authors: [{ name: 'MEG Consulting' }],
   openGraph: {
     title: 'MEG Consulting',
@@ -26,11 +26,12 @@ export const metadata = {
     locale: 'en-US',
     type: 'website',
   },
-  twitter: {
+  // Add linkedin and instagram
+  instagram: {
     card: 'summary_large_image',
     title: 'Your Consulting Firm',
     description: 'Expert consulting services for business growth and innovation',
-    images: ['https://yourconsultingfirm.com/twitter-image.jpg'],
+    images: ['https://yourconsultingfirm.com/instagram-image.jpg'],
   },
 };
 

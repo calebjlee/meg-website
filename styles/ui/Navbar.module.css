@@ -1,0 +1,38 @@
+/* Navbar.module.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    border-bottom: 1px solid #ede7f3;
+    padding: 0.75rem 2.5rem;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #140e1b;
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+}
+
+.linksContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #140e1b;
+    line-height: normal;
+}
